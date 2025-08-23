@@ -1,8 +1,62 @@
-
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
-}
-
+background(170,200,150);
+size(600,600);
+fill(130,120,125);
+//ears
+strokeWeight(4);
+ellipse(230,130,50,170);
+ellipse(370,130,50,170);
+//body
+ellipse(300,600,490,610);
+ellipse(300,300,320,320);
+noStroke();
+ellipse(300,600,470,590);
+//head
+noStroke();
+ellipse(300,300,300,300);
+//belly
+fill(230,220,180);
+ellipse(300,600,400,500);
+//belly markings
+fill(130,120,125);
+triangle(300,390,250,450,350,450);
+triangle(220,400,170,460,270,460);
+triangle(380,400,330,460,430,460);
+triangle(300,450,250,510,350,510);
+triangle(220,460,170,520,270,520);
+triangle(380,460,330,520,430,520);
+fill(230,220,180);
+noStroke();
+triangle(300,415,240,465,360,465);
+triangle(220,430,170,465,270,465);
+triangle(380,430,330,465,430,465);
+triangle(300,480,240,525,360,525);
+triangle(220,490,170,525,290,525);
+triangle(380,490,330,525,430,525);
+rect(250,430,10,40);
+rect(340,430,10,40);
+rect(250,490,10,40);
+rect(340,490,10,40);
+//white eyes
+fill(230,230,235);
+ellipse(200,270,50,50);
+ellipse(400,270,50,50);
+//pupils
+fill(30,30,35);
+ellipse(400,270,30,30);
+ellipse(200,270,30,30);
+fill(230,230,235);
+ellipse(410,260,10,10);
+ellipse(210,260,10,10);
+//nose
+fill(30,30,35);
+triangle(300,290,270,270,330,270);
+//mouth
+stroke(3);
+line(290,340,310,340);
+//whiskers
+line(100,290,200,305);
+line(500,290,400,305);
+line(90,315,190,315);
+line(510,315,410,315);
+line(100,340,200,325);
+line(500,340,400,325);
